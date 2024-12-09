@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    width: 100%;
+    font-family: "Merriweather", serif;
+    background-color: rgb(5, 6, 56);
+}
+
+nav {
+    display: flex;
+}
+
+.Heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+.my-portfolio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right: 32%;
+    color: white;
+}
+
+.options ul li a {
+    padding: 1vw;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.options ul li a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.highlight {
+    color: yellow;
+    padding: 8px;
+}
+
+nav ul {
+    margin-left: 5vw;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container1 {
+    overflow: hidden;
+    padding: 23vh 28vh 28vh 28vh;
+    height: 35vh;
+    background-color: rgba(14, 13, 58, 0.89);
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 {
+    overflow: hidden;
+    height: 50vh;
+    width: 70vh;
+}
+
+.container2 h1 {
+    color: white;
+}
+
+.my-1 {
+    overflow: hidden;
+    color: rgba(240, 248, 255, 0.945);
+}
+
+.contact {
+    background: yellow;
+    border: 0px;
+    border-radius: 8%;
+    margin-top: 2vb;
+    padding: 1%;
+    height: 4vh;
+    cursor: pointer;
+}
+
+button:hover {
+    font-weight: bold;
+    background-color: #06b500;
+}
+
+.hello {
+    color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pic{
+    height: 40vh;
+    margin-left: 20%;
+    border-radius: 10%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.pic:hover{
+        transform: scale(1.1);
+        filter: brightness(0.6);
+}
+footer {
+    overflow: hidden;
+    height: 6vh;
+    background-color: rgb(5, 6, 56);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact-me {
+    font-size: 5vh;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+.box1 {
+    height: 86vh;
+    background-color: rgba(14, 13, 58, 0.89);
+}
+
+.my-2 {
+    padding: 8vh;
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.my-3 {
+    padding: 2vh;
+    width: 50vw;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.my-4 {
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.my-5 {
+    margin-left: 2vw;
+}
+
+.input1:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.input {
+    color: white;
+    text-decoration: none;
+}
+
+.input1 {
+    color: rgba(255, 255, 255, 0.733);
+    text-decoration: none;
+}
+
+.input1 img {
+    width: 18px;
+    padding: 0px;
+}
+
+.form-floating {
+    margin-left: 80vh;
+}
+
+.form-floating input {
+    padding-left: 1vw;
+    display: flex;
+    margin-top: 1vh;
+    height: 5vh;
+}
+.calci{
+    color: white;
+}
+.calci_img{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+    cursor: pointer;
+}
+.calci_img:hover{
+    transform: scale(1.1);
+}
